@@ -1,3 +1,5 @@
-h2{
-    color:red;
-    }
+.name{
+    font-weight: bold;
+    color: rgb(37, 104, 228);
+    font-size: 30px;
+}
