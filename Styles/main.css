@@ -1,5 +1,66 @@
 .name{
     font-weight: bold;
-    color: rgb(37, 104, 228);
     font-size: 30px;
+}
+
+
+
+header{
+    background-color: rgb(245, 233, 176);
+    padding: 1px;
+    height: 40px;
+}
+
+nav{
+    display:block;
+    block-size: 1rem;
+}
+
+header nav ul{
+    list-style-type: none;
+    color: black;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 5rem;
+}
+
+.intro{
+    display:flex;
+    padding: 5px;
+}
+
+body{
+    font-family: 'Poltawski Nowy', serif;
+    color:grey;
+}
+
+.column1{
+    padding: 20px;
+    width: 60%
+}
+
+.column2{
+    padding: 20px;
+    width: 20%;
+    margin:3px;
+    background:rgb(245, 233, 176);
+}
+
+.column3{
+    padding: 20px;
+    width: 20%;
+    margin:3px;
+    background:rgb(245, 233, 176);
+}
+
+img{
+    width: 40%;
+    height:auto;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
 }
