@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Code_Simin"
+		},
+		{
+			"path": "../final-filter"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Code_yufei"
+	}
+}
