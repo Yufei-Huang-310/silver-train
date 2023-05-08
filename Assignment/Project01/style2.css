@@ -1,0 +1,145 @@
+.gallery {
+    transform: translateY(60px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+  header {
+    position: relative;
+    width: 50%;
+    height: auto;
+    text-transform: uppercase;
+    background-color: #f1f1f1; /* Optional: Set a background color for the header */
+  }
+  
+  .topnav {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    z-index: 100;
+    /* Add any additional styles you need */
+}
+
+.topnav-btn {
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+}
+
+.topnav-btn:hover,
+.topnav-btn.active {
+    background-color: yellow;
+}
+  
+
+  .logo {
+    position: fixed;
+    top: 10px; /* Adjust the distance from the top */
+    left: 20px; /* Adjust the distance from the left */
+    height: 50px; /* Adjust the height of the logo */
+    width: auto; /* Maintain the aspect ratio of the logo */
+  }
+
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.24);
+    margin: 5px;
+    overflow: hidden;
+    display: block;
+    width: calc(16.6667% - 20px); 
+    height: 500px;
+    
+    border: 2px solid grey;
+  }
+  
+  .image-container .imageButton {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.24);
+    overflow: hidden;
+    display: block;
+    height: 500px;
+    width: auto;
+    object-fit:cover;
+    
+    }
+  .image-container .imageButton:hover {
+
+    opacity: 0.3;
+  }
+  
+  .image-container .image-text {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -95%);
+    color: white;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    z-index:1000;
+    text-align: center;
+    background-color: black;
+    padding: 3px;
+    text-transform: uppercase;
+  }
+
+  .image-container2 {
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.24);
+    margin: 5px;
+    overflow: hidden;
+    display: block;
+    width: calc(16.6667% - 20px); 
+    height: 500px;
+    
+    border: 2px solid grey;
+  }
+  
+  .image-container2 .imageButton {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.24);
+    overflow: hidden;
+    display: block;
+    height: 500px;
+    width: auto;
+    object-fit:cover;
+    }
+  
+  .image-container2 .image-text {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    color: white;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    z-index:1000;
+    text-align: center;
+    background-color: black;
+    padding: 3px;
+    text-transform: uppercase;
+  }
+
+  .image-container2 .imageButton:hover {
+
+    opacity: 0.3;
+  }
+  
